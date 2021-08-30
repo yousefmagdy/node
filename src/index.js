@@ -5,7 +5,7 @@ var mysql = require("mysql2");
 const dotenv = require("dotenv");
 dotenv.config();
 
-//create express app
+//create express  app
 const app = express();
 app.use(cors());
 app.use(bodyParser.json());
